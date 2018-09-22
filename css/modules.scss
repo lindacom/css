@@ -356,5 +356,112 @@ border: 0;
 box-shadow: 0;
 display: inline;
 }
- 
+
+/* ****************************************************************************
+RANDOM STYLES
+**************************************************************************** */
+        
+        .panel-heading{border-bottom:1px solid transparent;border-top-right-radius:-1px;border-top-left-radius:-1px;font-size:1.3em;font-weight:700;padding:10px 15px}
+
+.tile-grid {
+    background-color: #f0f0f0;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: inherit;
+    font-weight: 200;
+    line-height: 2;
+    padding: 30px 0;
+}
+
+.tile {
+    background-color: white;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.38);
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.38);
+    margin: 0 auto 3em;
+    max-width: 360px;
+}
+
+.tile-image-title {
+    position: relative;
+}
+
+.tile h3 {
+    background: rgba(0,83,155,0.75);
+    font-size: 1.3em;
+    line-height: 1.3em;
+    margin: 0;
+    padding: .5em .8em;
+    position: absolute;
+    bottom: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    width: 100%;
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+}
+
+.tile-date {
+    color:#6a6a6b;
+    float:left;
+    font-size:15px;
+    font-weight:bold;
+    padding-left:1em
+    
+}
+
+.tile-type {
+    color:#6a6a6b;
+    float:right;
+    font-size:15px;
+    font-weight:bold;
+    padding-right:1em
+    
+}
+
+.tile.green h3 {
+    background:rgba(96,135,56,0.75)
+    }
+    
+.tile.green:hover h3 {
+    background:rgba(78,110,46,0.75)
+    }
+    
+.tile.purple h3 {
+    background:rgba(120,85,150,0.75)
+    }
+    
+.tile.purple:hover h3 {
+    background:rgba(102,72,127,0.75)
+    }
+    
+.tile.red h3 {
+    background:rgba(194,42,34,0.75)
+    }
+    
+.tile.red:hover h3 {
+    background:rgba(164,35,29,0.75)
+}
+
+.read-more a {
+    color: white;
+    font-size: 1.5em;
+    line-height: 2em;
+    margin: 0 0 40px 0;
+    padding: 0.4em 0.8em 0.2em 0.8em;
+    text-align: left;
+}
+.read-more a:before {
+    height:20px
+    }
+
+.btn-primary, .read-more a {
+    color: #fff;
+    background-color: #00539b;
+    border-color: #00539b;
+}
 
