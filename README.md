@@ -1,2 +1,1 @@
-# test
-test code
+blogs is w3schools template
