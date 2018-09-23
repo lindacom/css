@@ -28,13 +28,13 @@ else
 $result = mysqli_query($connect, $query);
 if(mysqli_num_rows($result) > 0) {
  $output .= '
-<div class="container1">
+<div>
      ';
  while ($row = mysqli_fetch_array($result))
  {
   $output .= '
 
-<div class="item">
+<div>
 
 
 
