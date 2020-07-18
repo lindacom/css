@@ -1,4 +1,7 @@
-blogs uses w3schools template
+Centre an div in the page
+==========================
+
+<div style="margin: 50 auto;">
 
 TUTORIALS
 ==========
