@@ -1,7 +1,8 @@
 Centre an div in the page
 ==========================
-
+```
 <div style="margin: 50 auto;">
+```
 
 TUTORIALS
 ==========
