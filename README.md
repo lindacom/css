@@ -4,6 +4,17 @@ Centre a div in the page
 <div style="margin: 50 auto;">
 ```
 
+centre text in a page
+----------------------
+
+```
+body {
+display: flex;
+align-items: center;
+justify-content:center;
+}
+```
+
 Insert a horizontal line
 =========================
 
@@ -12,7 +23,17 @@ Insert a horizontal line
             <hr style="width: 1px; height: 500px; background: black; border: none;" />  
  </div>
  ```
- 
+Round button
+============
+
+```
+button {
+background: black;
+color: white;
+padding:10px;
+border-radius:25px;
+}
+```
  Fix to top
  ===========
  Fix an element to the top of the browser.
