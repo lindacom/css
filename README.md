@@ -12,6 +12,19 @@ Insert a horizontal line
             <hr style="width: 1px; height: 500px; background: black; border: none;" />  
  </div>
  ```
+ 
+ Fix to top
+ ===========
+ Fix an element to the top of the browser.
+ 
+ ```
+ .classfix {
+ position:fixed;
+ top:0;
+ width:100%
+ z-index:10;
+ }
+ ```
 
 TUTORIALS
 ==========
