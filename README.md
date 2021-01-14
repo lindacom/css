@@ -1,7 +1,14 @@
 Stars
 =======
-
+```
 <span class="fa fa-star checked"></span>
+```
+Text colour red
+===============
+
+```
+<p style="color:red;">Free shipping on orders over £30!!</p>
+```
 
 Centre a div in the page
 ==========================
