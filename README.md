@@ -1,3 +1,8 @@
+Stars
+=======
+
+<span class="fa fa-star checked"></span>
+
 Centre a div in the page
 ==========================
 ```
