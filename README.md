@@ -58,6 +58,16 @@ border-radius:25px;
  z-index:10;
  }
  ```
+ 
+ Position text in bottom right of image
+ =======================================
+ 
+  <div class="container" style="position: relative;
+  text-align: center;
+  color: white;">
+  <img id="myImage" src="/images/avatar.jpg" style="width:100%;height:400px"/>
+  <div class="bottom-right" style="position: absolute; bottom: 8px; right: 16px;">Bottom Right</div>
+</div>
 
 TUTORIALS
 ==========
