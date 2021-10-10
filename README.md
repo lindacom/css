@@ -61,13 +61,27 @@ border-radius:25px;
  
  Position text in bottom right of image
  =======================================
- 
+ ```
   <div class="container" style="position: relative;
   text-align: center;
   color: white;">
   <img id="myImage" src="/images/avatar.jpg" style="width:100%;height:400px"/>
   <div class="bottom-right" style="position: absolute; bottom: 8px; right: 16px;">Bottom Right</div>
 </div>
+```
+
+Align two images side by side
+==============================
+```
+<div class="container" id="imgWrapper" style="position: relative;text-align: center;color: white;">
+    <div style="width:100%;">
+    <img id="mainImage" src="/images/avatar.jpg" style="width:43.33%;;height:400px;float:left;padding:5px"/>
+  <img id="myImage" src="/images/avatar.jpg" style="width:43.33%;;height:400px;float:left;padding:5px"/></div>
+  <div class="bottom-right" style="position: absolute; bottom: 8px; right: 16px;">Bottom Right</div>
+</div>
+
+  <h2 style="clear:both;">Button events</h2>
+```
 
 TUTORIALS
 ==========
