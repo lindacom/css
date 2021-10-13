@@ -1,6 +1,9 @@
 CSS page layout
 ===============
 
+header and nav
+---------------
+
 A website is often divided into headers, menus, content and a footer. A header is usually located at the top of the website (or right below a top navigation menu). It often contains a logo or the website name.
 
 Aligning header and navbar - notice header has position relative and nav has position absolute. Left and top are set to 0 so the nav will be positioned right up
@@ -15,7 +18,8 @@ agains top left corner of the header.  The width has also been set to 100% of th
                     <li><a href="payment.html">PAYMENT</a></li>
                     <li style="float: right;"><a href="#"><i class="fas fa-shopping-cart"></i>cart</a></li>
 
-                    <li style="float: right;"><a href="#" alt="counts items in localstorage"><i class="fas fa-shopping-cart" style=" background-color:red;"></i>
+                    <li style="float: right;"><a href="#" alt="counts items in localstorage"><i class="fas fa-shopping-cart" 
+                    style=" background-color:red;"></i>
                     <span class="badge" id="badge">0 </span></a></li>
                 </ul>
             </nav>
@@ -70,13 +74,19 @@ body {
   background-color: #111;
 }
 
+```
+Content
+--------
+You can include all content within a container.
+
+```
 .container {
   max-width: 900px;
   padding: 0 1.5em;
+  margin: 0 auto;
 }
 ```
-
-Content can be one, two or three column layout.
+Content can be one, two or three column layout. use margin: 0 auto to centre the content in the middle of the container width.
 
 TUTORIALS
 ==========
