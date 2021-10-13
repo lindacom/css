@@ -1,87 +1,82 @@
-Stars
-=======
-```
-<span class="fa fa-star checked"></span>
-```
-Text colour red
+CSS page layout
 ===============
 
-```
-<p style="color:red;">Free shipping on orders over £30!!</p>
-```
+A website is often divided into headers, menus, content and a footer. A header is usually located at the top of the website (or right below a top navigation menu). It often contains a logo or the website name.
 
-Centre a div in the page
-==========================
-```
-<div style="margin: 50 auto;">
-```
-
-centre text in a page
-----------------------
+Aligning header and navbar - notice header has position relative and nav has position absolute. Left and top are set to 0 so the nav will be positioned right up
+agains top left corner of the header.  The width has also been set to 100% of the header.
 
 ```
-body {
-display: flex;
-align-items: center;
-justify-content:center;
-}
-```
+ <header class="header">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="payment.html">PAYMENT</a></li>
+                    <li style="float: right;"><a href="#"><i class="fas fa-shopping-cart"></i>cart</a></li>
 
-Insert a horizontal line
-=========================
+                    <li style="float: right;"><a href="#" alt="counts items in localstorage"><i class="fas fa-shopping-cart" style=" background-color:red;"></i>
+                    <span class="badge" id="badge">0 </span></a></li>
+                </ul>
+            </nav>
 
-```
-<div class="col-md-2"> 
-            <hr style="width: 1px; height: 500px; background: black; border: none;" />  
- </div>
- ```
-Round button
-============
-
-```
-button {
-background: black;
-color: white;
-padding:10px;
-border-radius:25px;
-}
-```
- Fix to top
- ===========
- Fix an element to the top of the browser.
- 
- ```
- .classfix {
- position:fixed;
- top:0;
- width:100%
- z-index:10;
- }
+            <h1>My store</h1>
+           
+        </header>
  ```
  
- Position text in bottom right of image
- =======================================
  ```
-  <div class="container" style="position: relative;
+ .header {
+  height: 200px;
+  padding: 20px;
   text-align: center;
-  color: white;">
-  <img id="myImage" src="/images/avatar.jpg" style="width:100%;height:400px"/>
-  <div class="bottom-right" style="position: absolute; bottom: 8px; right: 16px;">Bottom Right</div>
-</div>
+  background-color: #1abc9c;
+  color: white;
+  font-size: 30px;
+  position: relative;
+}
+
+body {
+  background-color: #f6f6f6;
+ }
+
+.header nav ul {
+  list-style-type: none;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.header nav li {
+  float: left;
+}
+
+.header nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header nav li a:hover {
+  background-color: #111;
+}
+
+.container {
+  max-width: 900px;
+  padding: 0 1.5em;
+}
 ```
 
-Align two images side by side
-==============================
-```
-<div class="container" id="imgWrapper" style="position: relative;text-align: center;color: white;">
-    <div style="width:100%;">
-    <img id="mainImage" src="/images/avatar.jpg" style="width:43.33%;;height:400px;float:left;padding:5px"/>
-  <img id="myImage" src="/images/avatar.jpg" style="width:43.33%;;height:400px;float:left;padding:5px"/></div>
-  <div class="bottom-right" style="position: absolute; bottom: 8px; right: 16px;">Bottom Right</div>
-</div>
-
-  <h2 style="clear:both;">Button events</h2>
-```
+Content can be one, two or three column layout.
 
 TUTORIALS
 ==========
