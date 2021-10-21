@@ -10,23 +10,6 @@ Text colour red
 <p style="color:red;">Free shipping on orders over £30!!</p>
 ```
 
-Centre a div in the page
-==========================
-```
-<div style="margin: 50 auto;">
-```
-
-centre text in a page
-----------------------
-
-```
-body {
-display: flex;
-align-items: center;
-justify-content:center;
-}
-```
-
 Insert a horizontal line
 =========================
 
@@ -44,6 +27,23 @@ background: black;
 color: white;
 padding:10px;
 border-radius:25px;
+}
+```
+
+Centre a div in the page
+==========================
+```
+<div style="margin: 50 auto;">
+```
+
+centre text in a page
+----------------------
+
+```
+body {
+display: flex;
+align-items: center;
+justify-content:center;
 }
 ```
  Fix to top
@@ -83,7 +83,14 @@ Align two images side by side
   <h2 style="clear:both;">Button events</h2>
 ```
 
-Creating a page effect
+Position div fixed in bottom right of browser
+=======================================
+```
+position: fixed;
+     bottom: 0;
+     right: 0;
+```
+Creating a page border effect
 ======================
 using multiple box-shadow styles at different y-offsets.
 ```
