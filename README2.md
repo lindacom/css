@@ -83,6 +83,14 @@ Align two images side by side
   <h2 style="clear:both;">Button events</h2>
 ```
 
+Creating a page effect
+======================
+using multiple box-shadow styles at different y-offsets.
+```
+ box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+ 
+ ```
+
 TUTORIALS
 ==========
 
