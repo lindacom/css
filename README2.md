@@ -89,7 +89,19 @@ Position div fixed in bottom right of browser
 position: fixed;
      bottom: 0;
      right: 0;
+     z-index: 1;
 ```
+
+z-index
+=======
+The z-index property specifies the stack order of an element.
+
+An element with greater stack order is always in front of an element with a lower stack order.
+
+Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+
+Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top. 
+
 Creating a page border effect
 ======================
 using multiple box-shadow styles at different y-offsets.
