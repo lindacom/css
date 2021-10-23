@@ -93,3 +93,9 @@ TUTORIALS
 
 Building a responsive grid CSS grid website layout from scratch (45mins 32)
 https://www.youtube.com/watch?v=moBhzSC455o
+
+Colour wheels
+===============
+select complimentary colours for the website from the colour wheel:
+
+https://coolors.co/353535-3c6e71-ffffff-d9d9d9-284b63
