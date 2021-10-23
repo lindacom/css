@@ -99,3 +99,6 @@ Colour wheels
 select complimentary colours for the website from the colour wheel:
 
 https://coolors.co/353535-3c6e71-ffffff-d9d9d9-284b63
+Colour wheel - https://www.canva.com/colors/color-wheel/
+contrast checker - https://webaim.org/resources/contrastchecker/
+Accessibility tool - AXE (google chrome extension)
