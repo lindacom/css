@@ -1,5 +1,14 @@
-Stars
-=======
+Remove bullet styling
+======================
+```
+.shop-item-details > ul  {
+  list-style-type: none;
+}
+```
+Icons
+=====
+Stars:
+
 ```
 <span class="fa fa-star checked"></span>
 ```
