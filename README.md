@@ -109,6 +109,20 @@ Colours
   --blackgrey: #333533;
 ```
 
+icons
+======
+use font awesome
+```
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+```
+
+Increase font awesome icon size e.g.
+
+```
+<i class="fas fa-window-close fa-2x"></i>
+```
+
 TUTORIALS
 ==========
 
