@@ -88,6 +88,27 @@ You can include all content within a container.
 ```
 Content can be one, two or three column layout. use margin: 0 auto to centre the content in the middle of the container width.
 
+Colours
+========
+1. select complimentary colours for the website from the colour wheel:
+2. Create CSS Variables - to apply colour
+3. Apply colours to elements  e.g background-color: var(--yellow); 
+
+```
+/* CSS Variables */
+
+:root {
+  --primary: #ddd;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  --darkgrey: #CFDBD5;
+  --lightgrey: #E8EDDF;
+  --yellow: #F5CB5C;
+  --black: #242423;
+  --blackgrey: #333533;
+```
+
 TUTORIALS
 ==========
 
@@ -96,7 +117,7 @@ https://www.youtube.com/watch?v=moBhzSC455o
 
 Colour wheels
 ===============
-select complimentary colours for the website from the colour wheel:
+
 
 https://coolors.co/353535-3c6e71-ffffff-d9d9d9-284b63
 Colour wheel - https://www.canva.com/colors/color-wheel/
