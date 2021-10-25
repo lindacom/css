@@ -45,6 +45,12 @@ Centre a div in the page
 <div style="margin: 50 auto;">
 ```
 
+align items in a div
+======================
+```
+<div style="display:flex;align-items:center;">
+```
+
 centre text in a page
 ----------------------
 
