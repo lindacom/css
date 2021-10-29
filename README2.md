@@ -18,6 +18,11 @@ Text colour red
 ```
 <p style="color:red;">Free shipping on orders over £30!!</p>
 ```
+Gradient
+=========
+```
+background-image: linear-gradient(to right, red , yellow);
+```
 
 Insert a horizontal line
 =========================
