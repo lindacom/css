@@ -78,9 +78,10 @@ justify-content:center;
  z-index:10;
  }
  ```
- 
+ IMAGES
+ ========
  Position text in bottom right of image
- =======================================
+-----------------------------------------
  ```
   <div class="container" style="position: relative;
   text-align: center;
@@ -91,7 +92,7 @@ justify-content:center;
 ```
 
 Align two images side by side
-==============================
+------------------------------
 ```
 <div class="container" id="imgWrapper" style="position: relative;text-align: center;color: white;">
     <div style="width:100%;">
@@ -101,6 +102,29 @@ Align two images side by side
 </div>
 
   <h2 style="clear:both;">Button events</h2>
+```
+
+Text block over floated images
+--------------------------------
+Uses span and background colour and positioning 
+```
+<div style="position: relative; height:250px;">
+    <img id="myImage" src="/images/avatar.jpg" style="width:43.33%;height:200px;float:left;padding:20px;" alt="avatar">
+    <img id="myImage1" src="/images/avatar.jpg" style="width:43.33%;height:200px;float:left;padding:20px;opacity: 0.5;" alt="avatar"/>
+         <div style="position: absolute; bottom: 50px; right: 130px;"><h2><span class="txt-overlay">Title:</span><br /><span  class="txt-overlay">My text</span></h2></div> 
+         <div style="position: absolute; bottom: 50px; left: 30px;"><h2><span class="txt-overlay">Another title:</span><br /><span  class="txt-overlay">Another text</span></h2></div>     
+         
+        </div>
+```
+```
+.txt-overlay {
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+ }
 ```
 
 Position div fixed in bottom right of browser
