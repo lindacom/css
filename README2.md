@@ -90,18 +90,11 @@ Mobile first design
 <main>
     <article class="main">
        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu turpis euismod</p>
-       <!--USES FLEXBOX-->
-       <div class="shop-filters">
-        <!-- categories N.b. radio buttons must have same name for the check uncheck to work automatically-->
-      <!--  <div class="column" style="width:25%"> -->
-            
+           <div class="shop-filters">              
         <div>
-            <h2 class="shop-filters-title">Categories</h2>
-            
+            <h2 class="shop-filters-title">Categories</h2>            
             <p><a class="shop-filters-sub-title" href="store.html">Clear categories</a></p></div>
-
-            <div  class="radioBtns"> <!-- USES CSS GRID -->
-
+            <div  class="radioBtns"> 
             <input class="category" type="radio" id="meat" name="food" value="meat">
             <label class="shop-filters-label" for="meat">Meat</label>
             <input class="category" type="radio" id="sweets" name="food" value="sweets"> <label
