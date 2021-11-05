@@ -1,5 +1,30 @@
 CSS page layout
 ===============
+A three column page layout should have header main, article, aside, aside, footer
+
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test page</title>
+    <link rel="stylesheet" href="test.css" />
+    <link rel="shortcut icon" href="#" />
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+</head>
+<header></header> 
+<main></main>
+<article></article>
+<aside></aside> 
+<aside></aside>
+<footer></footer>
+
+<body>
+    </body>
+    </html>
+```
 
 header and nav
 ---------------
