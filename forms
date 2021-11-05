@@ -1,0 +1,70 @@
+#form-customer input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.frminp {
+  margin:5px;
+  text-align:left;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+HTML
+----
+
+ <form action="" id="form-customer" class="contactForm">
+                    <fieldset>
+                        <legend>Complete the details below.</legend>
+<div  class="frminp">
+                           <!-- <div class="row frminp"> --> 
+                            <label for="field1">First name:* <input type="text" id="fname" required></label>
+                        </div>
+
+                        <div class="frminp">
+                      <!--  <div class="row frminp">--> 
+                            <label for="field2">Last name:* <input type="text" id="lname" required></label>
+                        </div>
+
+                        <div class="frminp">
+                       <!-- <div class="row frminp">--> 
+                            <label for="field3">Address 1:* <input type="text" id="address" size="40" required></label>
+                        </div>
+
+                        <div class="frminp">
+                       <!-- <div class="row frminp">--> 
+                            <label for="field4">Town:* <input type="text" id="town" list="towns" required></label>
+                        </div>
+
+                        <div>
+                      <!-- <div class="row">--> 
+                            <datalist id="towns">
+                                <option value="London"></option>
+                                <option value="Edinburgh"></option>
+                                <option value="Swansea"></option>
+                            </datalist>
+                        </div>
+
+                        <div class="del-instr">
+                      <!--  <div class="row del-instr"> -->
+                            <label for="txtfield">Delivery instructions
+                                <textarea name="txtfield" id="charcount" cols="50" rows="10"
+                                    maxlength="100"></textarea></label>
+                            Count: <output name="count" id="count" for="charcount">0</output>
+                        </div>
+
+                    </fieldset>
+
+                </form>
