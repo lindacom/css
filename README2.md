@@ -67,6 +67,7 @@ Flexbox and CSS grid
 ---------
 Mobile first design
 
+Large screen sizes:
 ```
 /* larger screen sizes */
 @media(min-width: 768px) {
@@ -83,6 +84,18 @@ Mobile first design
                 order: -1; 
               }
   ```
+  Mobile sizes:
+ 
+ ```
+ body { 
+  background-color: var(--grey); 
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+
+  display:flex; 
+  min-height: 100vh; // vertical height
+  flex-direction:column;
+ } 
+ ```
  Radio buttons panel using flexbox and css grid
  -------------------------------------------------
 ```
