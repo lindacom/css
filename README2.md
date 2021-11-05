@@ -103,9 +103,9 @@ Mobile first design
                 for="fruit">Fruit</label>
             <input class="category" type="radio" id="drinks" name="food" value="drinks"> <label
                 for="drinks">Drinks</label>
-            </div> <!--END OF GRID-->
+            </div> 
             </div>
-        </div><!--END OF FLEXBOX-->
+        </div>
     </article>
 </main>
 ```
