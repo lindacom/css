@@ -84,3 +84,35 @@ Mobile first design
                 order: -1; /* appears before the main item in large view */
               }
               ```
+ Radio buttons panel using flexbox and css grid
+ -------------------------------------------------
+```
+<main>
+    <article class="main">
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu turpis euismod</p>
+       <!--USES FLEXBOX-->
+       <div class="shop-filters">
+        <!-- categories N.b. radio buttons must have same name for the check uncheck to work automatically-->
+      <!--  <div class="column" style="width:25%"> -->
+            
+        <div>
+            <h2 class="shop-filters-title">Categories</h2>
+            
+            <p><a class="shop-filters-sub-title" href="store.html">Clear categories</a></p></div>
+
+            <div  class="radioBtns"> <!-- USES CSS GRID -->
+
+            <input class="category" type="radio" id="meat" name="food" value="meat">
+            <label class="shop-filters-label" for="meat">Meat</label>
+            <input class="category" type="radio" id="sweets" name="food" value="sweets"> <label
+                for="sweets">Sweets</label>
+            <input class="category" type="radio" id="fruit" name="food" value="fruit"> <label
+                for="fruit">Fruit</label>
+            <input class="category" type="radio" id="drinks" name="food" value="drinks"> <label
+                for="drinks">Drinks</label>
+            </div> <!--END OF GRID-->
+            </div>
+        </div><!--END OF FLEXBOX-->
+    </article>
+</main>
+```
