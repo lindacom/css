@@ -96,6 +96,12 @@ Large screen sizes:
   flex-direction:column;
  } 
  ```
+ hide in mobile view 
+ ```
+ aside {
+ display:none; /* hidden on mobile */
+  }
+  ```
  Radio buttons panel using flexbox and css grid
  -------------------------------------------------
 ```
