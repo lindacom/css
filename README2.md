@@ -100,6 +100,28 @@ Large screen sizes:
  display:none; /* hidden on mobile */
   }
   ```
+CSS grid column layout:
+three column layout used for products display 
+```
+
+.container { 
+  max-width: 900px; 
+
+ display:grid;
+ grid-template-columns: repeat(3, 1fr); // three columns taking one fraction each 
+ 
+ }
+```
+  two column container used on payment page 
+
+```
+ .pmtContainer { 
+  max-width: 900px; 
+  display:grid;
+ grid-template-columns: 600px 300px // two column with set widths
+
+ }
+ ```
  Radio buttons panel using flexbox and css grid
  -------------------------------------------------
 ```
