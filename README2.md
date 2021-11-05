@@ -72,9 +72,7 @@ Large screen sizes:
 /* larger screen sizes */
 @media(min-width: 768px) {
   main {
-   /* width: 80%; */
-  /*  margin: 0 auto; */
-    flex-direction: row;
+      flex-direction: row;
       }
 
       aside {
