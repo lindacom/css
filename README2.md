@@ -65,3 +65,22 @@ Styling
 ```
 Flexbox and CSS grid
 ---------
+Mobile first design
+
+```
+/* larger screen sizes */
+@media(min-width: 768px) {
+  main {
+   /* width: 80%; */
+  /*  margin: 0 auto; */
+    flex-direction: row;
+      }
+
+      aside {
+        flex: 0 0 10%;/* grow shrink and settings.  will grow 1/5th of page and no more proportional to other elements (main and aside)
+            */  }
+
+              .sidebar1 {
+                order: -1; /* appears before the main item in large view */
+              }
+              ```
