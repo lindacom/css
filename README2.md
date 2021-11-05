@@ -77,13 +77,12 @@ Mobile first design
       }
 
       aside {
-        flex: 0 0 10%;/* grow shrink and settings.  will grow 1/5th of page and no more proportional to other elements (main and aside)
-            */  }
+        flex: 0 0 10%;  }
 
               .sidebar1 {
-                order: -1; /* appears before the main item in large view */
+                order: -1; 
               }
-              ```
+  ```
  Radio buttons panel using flexbox and css grid
  -------------------------------------------------
 ```
@@ -108,4 +107,5 @@ Mobile first design
         </div>
     </article>
 </main>
+
 ```
