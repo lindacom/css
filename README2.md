@@ -100,6 +100,35 @@ Large screen sizes:
  display:none; /* hidden on mobile */
   }
   ```
+  
+To images in a grid with caption text on top
+============================================
+```
+/*container size - two columns*/
+              .promo {
+                display:grid;
+                grid-template-columns: 450px 450px;
+                grid-gap: 1rem;
+                justify-content: center;
+              }
+              
+/* two rows - for image and caption - total = the height of the image */
+              figure {
+                display: grid;
+                grid-template-rows: 150px 100px;
+              }
+
+              #myImage {
+height:250px;
+width:450px;
+              }
+
+              #myImage1 {
+               height:250px;
+width:450px;
+
+              }
+```
 CSS grid column layout:
 three column layout used for products display 
 ```
