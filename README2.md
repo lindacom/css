@@ -101,7 +101,7 @@ Large screen sizes:
   }
   ```
   
-To images in a grid with caption text on top
+Two images in a grid with caption text on top
 ============================================
 ```
 /*container size - two columns*/
@@ -150,6 +150,37 @@ three column layout used for products display
  grid-template-columns: 600px 300px // two column with set widths
 
  }
+ ```
+ 
+ CSS grid used to display products (in cards style)
+ ====================================
+ container and item:
+ ```
+    .shop-items { /* mobile view */
+                display:grid;
+                grid-template-columns: auto;
+                grid-gap:1rem;
+               }
+
+               .shop-item {
+                                 background-color: var(--white); 
+                          }
+                          
+ /* MEDIA QUERIES*/
+
+/* larger screen sizes - ipad and above */
+@media(min-width: 768px) {
+.shop-items {
+ grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+ /* justify-content: space-around;*/
+}
+
+.shop-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+}
+               
  ```
  Radio buttons panel using flexbox and css grid
  -------------------------------------------------
